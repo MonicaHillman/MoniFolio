@@ -6,6 +6,7 @@
 body {
     background-color: rgb(4, 4, 39);
     font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
 }
 
 .cabecalho__titulo {
@@ -38,4 +39,63 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 0;
+}
+
+.container-principal__imagem {
+    width: 25%
+}
+
+.container-principal__titulo {
+    font-size: 70px;
+}
+
+.container-principal__texto {
+    font-size: 50px;
+}
+
+.container-secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-secundario__imagem {
+    width: 25%;
+}
+
+.container-secundario__parteum {
+    width: 40vw;
+    font-size: 25px;
+}
+
+.container-secundario__lista {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.container-secundario__lista-item {
+    background-color: rgb(89, 50, 151);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.container-portfolio {
+    background-color: white;
+    color: rgb(89, 50, 151);
+    text-align: center;
+    padding: 5em 0;
+}
+
+.container-portfolio__titulo {
+    font-size: 40px;
+    margin-bottom: 1em;
 }
